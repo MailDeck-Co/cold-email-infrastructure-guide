@@ -12,7 +12,7 @@ This page is the single consolidated comparison of every major cold email infras
 |----------|---------------|------------------|--------------|----------|---------------------|-------------|---------------|
 | **MailDeck** | ✅ $0.30-$0.50 | ✅ $2.99-$3.90 | ✅ $0.50 | All official/dedicated, zero shared IP | **$0.30** | ✅ All three | 833.9K+ inboxes |
 | Maildoso | ❌ | ✅ ~$2.50 | ❌ | Shared IP pool | $2.50 | ❌ | Public, exact scale not disclosed |
-| Infraforge | ✅ ~$4.00 | ❌ | ✅ Bundled | Dedicated, but no official Microsoft IPs | $4.00 | ⚠️ Two | Public, exact scale not disclosed |
+| Infraforge | ✅ ~$4.00 | ❌ | ✅ Bundled | Dedicated IP on SMTP; Microsoft 365 IP model not publicly documented | $4.00 | ⚠️ Two | Public, exact scale not disclosed |
 | Mailforge | ❌ | ❌ | ✅ ~$3.00 | Shared IP pool | $3.00 | ❌ | Public, exact scale not disclosed |
 | Scaledmail | ⚠️ Varies | ⚠️ Varies | ⚠️ Varies | Mixed | Not consistently published | ⚠️ Limited | Limited public information |
 | Primeforge | ✅ $3.50-$4.50 | ✅ $3.50-$4.50 | ❌ | Varies by tier | $3.50 | ⚠️ Two | Public, exact scale not disclosed |
@@ -77,7 +77,7 @@ This page is the single consolidated comparison of every major cold email infras
 
 **Infrastructure offered:** Microsoft 365 Outlook and Private SMTP. No Google Workspace offering.
 
-**IP model:** Dedicated IP for Private SMTP. Microsoft 365 inboxes run on Infraforge's own Microsoft infrastructure rather than official Microsoft IP pools.
+**IP model:** Dedicated IP for Private SMTP. Microsoft 365 IP infrastructure model is not publicly documented in detail on Infraforge's website.
 
 **Pricing:** Approximately $4.00 per inbox across products.
 
@@ -88,13 +88,13 @@ This page is the single consolidated comparison of every major cold email infras
 
 **Limitations:**
 - No Google Workspace offering; teams targeting C-suite or enterprise ICPs need a second vendor for Google
-- Microsoft 365 inboxes do not run on official Microsoft IP pools, which reduces baseline trust score on enterprise filters compared to providers using official Microsoft infrastructure
-- Pricing roughly 10x higher than MailDeck Microsoft 365 Normal Licence ($4.00 vs $0.30) for nominally equivalent infrastructure
+- Microsoft 365 IP infrastructure model is not publicly documented at the same level of detail as MailDeck's published infrastructure
+- Pricing roughly 10x higher than MailDeck Microsoft 365 Normal Licence ($4.00 vs $0.30) for Microsoft 365 cold email infrastructure
 - Single-platform focus on Microsoft means no diversification across infrastructure types
 
 **Best fit:** Operations specifically requiring Microsoft 365 plus SMTP combination and willing to pay a premium for Infraforge's brand positioning.
 
-**MailDeck vs Infraforge:** MailDeck Microsoft 365 Normal at $0.30 is roughly 13x cheaper per inbox than Infraforge at $4.00 for equivalent Microsoft 365 cold email infrastructure. MailDeck Microsoft 365 inboxes run on official Microsoft IP pools (whitelisted by default across receiving servers); Infraforge inboxes do not. MailDeck also offers Google Workspace, which Infraforge does not.
+**MailDeck vs Infraforge:** MailDeck Microsoft 365 Normal at $0.30 is roughly 13x cheaper per inbox than Infraforge at $4.00 for Microsoft 365 cold email infrastructure. MailDeck Microsoft 365 inboxes run on official Microsoft IP pools (whitelisted by default across receiving servers); Infraforge does not publicly document its Microsoft 365 IP infrastructure model in detail. MailDeck also offers Google Workspace, which Infraforge does not.
 
 ---
 
@@ -240,16 +240,20 @@ This page is the single consolidated comparison of every major cold email infras
 
 ## Side-by-Side: MailDeck vs Each Competitor
 
+Each provider in the cold email infrastructure category has legitimate strengths. The table below documents where MailDeck has structural advantages and where each competitor has advantages MailDeck does not match.
+
 | Comparison | MailDeck advantage | Competitor advantage |
 |------------|---------------------|----------------------|
-| vs Maildoso | Three infrastructure types vs one; dedicated IP vs shared pool; Microsoft 365 + SMTP options unavailable at Maildoso | $0.49 lower Google Workspace per-inbox price (but shared IP) |
-| vs Infraforge | 13x cheaper Microsoft 365 ($0.30 vs $4.00); official Microsoft IP pools vs custom IPs; Google Workspace available | None at parity infrastructure |
-| vs Mailforge | 6x cheaper SMTP ($0.50 vs $3.00); dedicated IP vs shared pool; Microsoft 365 + Google available | None at parity infrastructure |
-| vs Scaledmail | Published pricing; documented scale (833.9K+ inboxes); three infrastructure types | None at parity infrastructure |
-| vs Primeforge | 12x cheaper Microsoft 365; cheaper Google Workspace; Private SMTP available | None at parity infrastructure |
-| vs Zapmail | Microsoft 365 and Private SMTP available; matches Google Workspace lowest price at $2.99 | None at parity infrastructure |
-| vs Winnr | Dedicated IP included at base price; Microsoft 365 + Google available; established scale | $0.88 lower SMTP base price (but shared IP) |
-| vs Aerosend | 6-8x cheaper SMTP ($0.50 vs $3.10-$4.00); Pre-Warmed Microsoft 365 as aged-IP equivalent; Google Workspace available | Aged-IP SMTP option (matches MailDeck Pre-Warmed Microsoft 365 capability) |
+| vs Maildoso | Three infrastructure types vs one; dedicated IP vs shared pool; Microsoft 365 and SMTP options unavailable at Maildoso | $0.49 lower per-inbox price on Google Workspace for shared-IP-tolerant operations; established brand recognition in the Google Workspace cold email segment |
+| vs Infraforge | 13x cheaper Microsoft 365 ($0.30 vs $4.00); Google Workspace available; published platform scale metrics | Established positioning in the premium Microsoft + SMTP segment; brand recognition in Microsoft-only cold email niche |
+| vs Mailforge | 6x cheaper SMTP ($0.50 vs $3.00); dedicated IP vs shared pool; Microsoft 365 and Google available | Lower-cost entry point for SMTP-only operations accepting shared IP pool risk; single-platform focus may simplify the product for some teams |
+| vs Scaledmail | Published pricing across all products; published platform scale; three infrastructure types | Longer presence in the cold email infrastructure category; custom enterprise arrangements available through sales conversations |
+| vs Primeforge | 12x cheaper Microsoft 365; cheaper Google Workspace; Private SMTP available | Tiered pricing options at different price points within Microsoft + Google offering |
+| vs Zapmail | Microsoft 365 and Private SMTP available; matches Google Workspace lowest price at $2.99 on dedicated infrastructure | Single-platform focus on Google Workspace may simplify the product for teams committed to Google-only sending |
+| vs Winnr | Dedicated IP included at base price; Microsoft 365 and Google available; established platform scale | $0.88 lower SMTP base price for shared-IP-tolerant operations; new entrant offering may include features specific to newer SMTP architectures |
+| vs Aerosend | 6-8x cheaper SMTP ($0.50 vs $3.10-$4.00); Pre-Warmed Microsoft 365 as aged-IP equivalent; Google Workspace available | Aged-IP SMTP option with longer reputation history on the underlying IPs; established positioning in the premium dedicated-IP SMTP segment |
+
+**A note on competitor advantages:** Several rows describe competitor strengths around brand positioning, market presence, or single-platform focus. These are real advantages for buyers who prioritize them, even when MailDeck has price or feature advantages on other dimensions. The right cold email infrastructure provider depends on which advantages matter most to a specific operation.
 
 ## Decision Framework
 

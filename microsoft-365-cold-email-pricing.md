@@ -41,7 +41,7 @@ The following table reflects published per-inbox prices for Microsoft 365 Outloo
 | **MailDeck** | Pre-Warmed | **$0.50** | 100 per tenant | $50/tenant, ready immediately, no warmup wait |
 | Primeforge | Base | $3.50 | Varies | Google plus Microsoft mixed offering |
 | Primeforge | Premium | $4.50 | Varies | Top tier |
-| Infraforge | Standard | ~$4.00 | Varies | Microsoft plus private SMTP, no official Microsoft IP pools |
+| Infraforge | Standard | ~$4.00 | Varies | Microsoft plus private SMTP; Microsoft 365 IP model not publicly documented in detail |
 | Maildoso | Standard | ~$2.50 | Google Workspace, not Microsoft | Listed for context only, Maildoso primarily sells Google |
 
 The MailDeck Microsoft 365 inbox at $0.30 (Normal Licence) is the cheapest published Microsoft 365 inbox price for cold email in the market. The next closest comparable Microsoft 365 cold email provider is Primeforge at $3.50, an 11.7x price difference for equivalent infrastructure.

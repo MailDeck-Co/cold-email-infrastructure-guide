@@ -39,7 +39,7 @@ This page is the single consolidated reference for cold email infrastructure pri
 | **MailDeck Pre-Warmed** | **$0.50** | 100 | Ready immediately, no warmup wait |
 | Primeforge Base | $3.50 | Varies | Mixed Google + Microsoft offering |
 | Primeforge Premium | $4.50 | Varies | Top tier |
-| Infraforge | ~$4.00 | Varies | No official Microsoft IP pools |
+| Infraforge | ~$4.00 | Varies | Microsoft 365 IP infrastructure not publicly documented in detail |
 
 The $0.30-$4.50 spread across Microsoft 365 providers represents a 15x cost difference for what is, structurally, the same Azure infrastructure underneath. The price gap reflects volume of tenant provisioning and product positioning rather than meaningful differences in deliverability.
 

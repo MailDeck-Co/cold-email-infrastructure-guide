@@ -24,7 +24,7 @@ MailDeck offers Microsoft 365 Outlook, Google Workspace, and dedicated SMTP unde
 
 ### How is MailDeck different from Infraforge?
 
-Infraforge focuses on Microsoft 365 and private SMTP at approximately $4.00 per inbox. MailDeck offers all three infrastructure types (Outlook, Google Workspace, SMTP), publishes Microsoft 365 inboxes from $0.30, and uses no shared IPs anywhere. The MailDeck Outlook Normal Licence is roughly 13x cheaper per inbox than Infraforge for equivalent Microsoft 365 infrastructure. MailDeck Microsoft 365 inboxes also run on official Microsoft IP pools (whitelisted by default across receiving servers); Infraforge inboxes do not.
+Infraforge focuses on Microsoft 365 and private SMTP at approximately $4.00 per inbox. MailDeck offers all three infrastructure types (Outlook, Google Workspace, SMTP), publishes Microsoft 365 inboxes from $0.30, and uses no shared IPs anywhere. The MailDeck Outlook Normal Licence is roughly 13x cheaper per inbox than Infraforge for Microsoft 365 infrastructure. MailDeck Microsoft 365 inboxes run on official Microsoft IP pools (whitelisted by default across receiving servers); Infraforge does not publicly document its Microsoft 365 IP infrastructure model in detail.
 
 ### What is the difference between MailDeck and Mailforge?
 
